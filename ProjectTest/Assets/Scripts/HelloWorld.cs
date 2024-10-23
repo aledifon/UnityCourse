@@ -1,48 +1,54 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.VersionControl;
 using UnityEngine;
 
 public class HelloWorld : MonoBehaviour
 {
     //Variables
-    int number = 10;        
-
-    // x = 10
-    // y = 3
-    // z = true
-
-    // log 14
-
+    int number = 10,
+        numberTwo = 20,
+        numberThree;
+    // Creamos una variable de tipo string
+    string message;
+    // Creamos una variable de tipo char
+    char letter;
+    double numberTen;
 
     // Start is called before the first frame update
     void Start()
     {
-        //string message = "Hola Violeta";
-        //Debug.Log("Mi number is "+ number);
+        ExampleWithStrings();
+        ExampleWithInts();
+    }
 
-        //float x = 2.0f;
-        //x = Mathf.Pow((x + x), 2);
-        ////x= Mathf.Sqrt(x+Mathf.Sqrt(x)+5);
-        //Debug.Log(x);
-
-        int x, y;
-        bool z;
-
-        float t = 2.3f;
-        t = t + 3.6f;
-
-        x = 5;
-        y = x-2;
-        x = y*y+1;
-        z = (x>(y+5));
-        //Debug.Log( x + y + (z ? 1 : 0));
-        Debug.Log(x + y + Convert.ToInt32(z));
+    private void ExampleWithStrings()
+    {
+        message = "Hola Violeta";
+        letter = '¬';
+        message = message + "Hola"; // A la info que ya estaba guardada previamente añadele un Hola
+        message += "Violeta";
+        Debug.Log(message);
+    }
+    private void ExampleWithInts()
+    {
+        numberTen = 10.2d;
+        number = 100;
+        numberTwo = number;     // numberTwo = 100
+        // Asignando un valor
+        // Debug.Log(number)
+        Debug.Log(numberTwo);   // 100
+        numberTwo = 5;
+        Debug.Log(numberTwo);   // 5
+        Debug.Log(123 + 4);     // Aqui se suman los 2 valores enteros
+        Debug.Log("123" + 4);   // Aqui concatena la cadena de caracteres con el valor numérico.
     }
 
     //// Update is called once per frame
     //void Update()
     //{
-        
+
     //}         
 }
