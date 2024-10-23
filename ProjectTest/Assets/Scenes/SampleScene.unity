@@ -163,11 +163,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 427544249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31ceb7472ed9ad24fa3b89af802194dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac07319dd2a8b5418dd736ada02719f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  celsiusTemp: 100
-  farenheitTemp: 100
+  dayNumber: 3
+  num1: 6
+  num2: 66
+  num3: 666
+  nums: 4c0200001700000002000000
+  numList: 0400000036000000e8010000
+  sortingType: 1
+  sortingWay: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

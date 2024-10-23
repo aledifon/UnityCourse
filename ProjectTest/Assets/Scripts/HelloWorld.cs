@@ -14,8 +14,8 @@ public class HelloWorld : MonoBehaviour
     // Creamos una variable de tipo string
     string message;
     // Creamos una variable de tipo char
-    char letter;
-    double numberTen;
+    //char letter;
+    //double numberTen;
 
     // Start is called before the first frame update
     void Start()
@@ -27,14 +27,14 @@ public class HelloWorld : MonoBehaviour
     private void ExampleWithStrings()
     {
         message = "Hola Violeta";
-        letter = '¬';
+        //letter = '¬';
         message = message + "Hola"; // A la info que ya estaba guardada previamente añadele un Hola
         message += "Violeta";
         Debug.Log(message);
     }
     private void ExampleWithInts()
     {
-        numberTen = 10.2d;
+        //numberTen = 10.2d;
         number = 100;
         numberTwo = number;     // numberTwo = 100
         // Asignando un valor

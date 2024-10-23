@@ -12,9 +12,9 @@ public class Temperature : MonoBehaviour
     void Start()
     {        
         Debug.Log("Celsius to Farenheit conversion");
-        CelsiusToFarenheit();
+        //CelsiusToFarenheit();
         Debug.Log("Farenheit to Celsius conversion");
-        FarenheitToCelsius();
+        //FarenheitToCelsius();
     }
 
     //// Update is called once per frame
@@ -22,14 +22,14 @@ public class Temperature : MonoBehaviour
     //{
         
     //}
-    private void CelsiusToFarenheit()
-    {
-        float result;
-        Debug.Log(celsiusTemp + "ºC = " + (1.8f*celsiusTemp+32) + "ºF");        
-    }
-    private void FarenheitToCelsius()
-    {
-        float result;
-        Debug.Log(farenheitTemp + "ºF = " + ((farenheitTemp - 32) / 1.8f) + "ºC");        
-    }
+    //private void CelsiusToFarenheit()
+    //{
+    //    float result;
+    //    Debug.Log(celsiusTemp + "ºC = " + (1.8f*celsiusTemp+32) + "ºF");        
+    //}
+    //private void FarenheitToCelsius()
+    //{
+    //    float result;
+    //    Debug.Log(farenheitTemp + "ºF = " + ((farenheitTemp - 32) / 1.8f) + "ºC");        
+    //}
 }
