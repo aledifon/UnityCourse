@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638645972774779304
+      ticks: 638646043202369110
     m_Hash: 2103679644
   m_LockFileStatus:
     m_FilePath: C:/Users/aledi/UnityCourse/MyFirstProject/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638645972774870207
+      ticks: 638646043202369110
     m_Hash: 3261765232
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3174,6 +3174,7 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
+    - 3.0.34
     compatible:
     - 3.0.24
     - 3.0.25
@@ -3181,7 +3182,8 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
-    recommended: 3.0.31
+    - 3.0.34
+    recommended: 3.0.34
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit

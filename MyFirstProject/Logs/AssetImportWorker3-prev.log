@@ -1,0 +1,1016 @@
+Using pre-set license
+Built from '2023.1/staging' branch; Version is '2023.1.11f1 (fbf46ad88f3d) revision 16512106'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 40182 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.1.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/aledi/UnityCourse/MyFirstProject
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51314
+Successfully changed project path to: C:/Users/aledi/UnityCourse/MyFirstProject
+C:/Users/aledi/UnityCourse/MyFirstProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30980] Host "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 4119602067 [EditorId] 4119602067 [Version] 1048832 [Id] WindowsEditor(7,LaptopDifon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30980] Host "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 4119602067 [EditorId] 4119602067 [Version] 1048832 [Id] WindowsEditor(7,LaptopDifon) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 7.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.1.11f1 (fbf46ad88f3d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aledi/UnityCourse/MyFirstProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6010 MB
+    Driver:   31.0.15.4680
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002767 seconds.
+- Loaded All Assemblies, in  0.501 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.402 seconds
+Domain Reload Profiling: 902ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (181ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (402ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\aledi\UnityCourse\MyFirstProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aledi\UnityCourse\MyFirstProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.127 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1899ms
+	BeginReloadAssembly (370ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (376ms)
+			TypeCache.Refresh (353ms)
+				TypeCache.ScanAssembly (340ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (52.6 KB). Loaded Objects now: 3655.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 11.378500 ms (FindLiveObjects: 0.677600 ms CreateObjectMapping: 0.813700 ms MarkObjects: 9.671900 ms  DeleteObjects: 0.213900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141468.773870 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_02.prefab
+  artifactKey: Guid(e85c18dfba00c9540859ea847782af5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants/rpgpp_lt_plant_02.prefab using Guid(e85c18dfba00c9540859ea847782af5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b646437ec37233b7b0ffdccb402dd22') in 0.101419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01a.prefab
+  artifactKey: Guid(e1032c9b5d7d362489670d42997dceb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01a.prefab using Guid(e1032c9b5d7d362489670d42997dceb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6ba886e9ee742963240ae76e02f0a58') in 0.006976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_rake_01.prefab
+  artifactKey: Guid(b44415eef131de742a4190453fc4d68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_rake_01.prefab using Guid(b44415eef131de742a4190453fc4d68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2178bbbe009684b17148560c31b73cce') in 0.007635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rocks_tiny_01.fbx
+  artifactKey: Guid(2e716c43576f71b4aa87e6cb4ebeaeab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rocks_tiny_01.fbx using Guid(2e716c43576f71b4aa87e6cb4ebeaeab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bf1686170fa51f88f6b2cdff625accf') in 0.025863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_open_01.prefab
+  artifactKey: Guid(5fb4dbc1b7c07b9418845eb61970d9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_open_01.prefab using Guid(5fb4dbc1b7c07b9418845eb61970d9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bf1c76c920b232189a0b7a91b4d0805') in 0.006509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01a.fbx
+  artifactKey: Guid(6db1e633533718d49bd0b8329bc37412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01a.fbx using Guid(6db1e633533718d49bd0b8329bc37412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b025c5f60b50dee119a62c61b89af2e') in 0.012839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_vase_01.prefab
+  artifactKey: Guid(1645880bdf365054a8c29b271c30eb36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_vase_01.prefab using Guid(1645880bdf365054a8c29b271c30eb36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0e64d8969b37c7e423d3f2caf61275e') in 0.006347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_package_01.prefab
+  artifactKey: Guid(388d2ede35ec91345943f17a010818fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_package_01.prefab using Guid(388d2ede35ec91345943f17a010818fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f3c425c2fab8aa707f47af10b5cce86') in 0.006982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_log_wood_01.fbx
+  artifactKey: Guid(83ca3216726525148a325296526fcfa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_log_wood_01.fbx using Guid(83ca3216726525148a325296526fcfa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8ba90757d8bad073b7ad61f5f2401ef') in 0.015909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab
+  artifactKey: Guid(813f38ebf5eabe1429b83876fbaa47db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers/rpgpp_lt_hanger_wood_01.prefab using Guid(813f38ebf5eabe1429b83876fbaa47db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1762a8be34c4bbb1851db72b58751b3') in 0.006534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures
+  artifactKey: Guid(89fac321af2bad14eb25a5915717f85a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Structures using Guid(89fac321af2bad14eb25a5915717f85a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ef7dbd4d7e3d6133126e69339c9bd80') in 0.003367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_01.fbx
+  artifactKey: Guid(af5390e2a0373984db3740f21c0ec034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_01.fbx using Guid(af5390e2a0373984db3740f21c0ec034) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '429094130e5ddfa9aabce7c52052ce7e') in 0.013632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_sky_01.prefab
+  artifactKey: Guid(f31c6bb6e68212e41b0bcae74612a240) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_sky_01.prefab using Guid(f31c6bb6e68212e41b0bcae74612a240) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd84a92447977411610f6f48e873793c3') in 0.005986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers
+  artifactKey: Guid(fc5bc5139597e9345b4ed47ff049af1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers using Guid(fc5bc5139597e9345b4ed47ff049af1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28af936d1eb38d2474e048ce575a7b23') in 0.002523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_banner_01b.fbx
+  artifactKey: Guid(dc3de67326229ab459a1320acc34b8ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_banner_01b.fbx using Guid(dc3de67326229ab459a1320acc34b8ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3274d1376a245c52a7f464cd26c8e10e') in 0.011745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_vase_02.fbx
+  artifactKey: Guid(65a171ea06543b04fa7aa086cd66702d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_vase_02.fbx using Guid(65a171ea06543b04fa7aa086cd66702d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db0283f61efa09b3dae83f5cd1dbc00a') in 0.010925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab
+  artifactKey: Guid(7a77ea810bbc0db4992e500affe32dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs/rpgpp_lt_chair_01b.prefab using Guid(7a77ea810bbc0db4992e500affe32dbf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa118b008a2e6eb1c1778aa3ba4ec397') in 0.006793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture
+  artifactKey: Guid(3f958f6d490fa3c409a72ba1b872ef86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture using Guid(3f958f6d490fa3c409a72ba1b872ef86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26e2c912112870adca84a181df70d43a') in 0.003067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers
+  artifactKey: Guid(002ae82687d12084ebe47a31fdfa01d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Hangers using Guid(002ae82687d12084ebe47a31fdfa01d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60dd0613e8af99ffe876de2889c8f40b') in 0.002789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_02.fbx
+  artifactKey: Guid(d1fd41beb70267947bc1c996df07593d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_02.fbx using Guid(d1fd41beb70267947bc1c996df07593d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59f44b463e8dfef6ae098816926fa840') in 0.011858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab
+  artifactKey: Guid(4c1686a5131ac8b45bfe913f509289c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables/rpgpp_lt_table_01.prefab using Guid(4c1686a5131ac8b45bfe913f509289c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1d070d0fb9ba2187ad75c9a8caaeae8') in 0.005534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Models
+  artifactKey: Guid(5895e5cef1e6ad9419b6d721edfe6754) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models using Guid(5895e5cef1e6ad9419b6d721edfe6754) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1322c5e4600fa9e26f6203fb24cbfc1') in 0.002807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_plant_01.fbx
+  artifactKey: Guid(82188904581423c4a9ed3fbf3286ccdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_plant_01.fbx using Guid(82188904581423c4a9ed3fbf3286ccdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a85b42fc075d5c4b3d14386e9a21fa80') in 0.012631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor
+  artifactKey: Guid(ca9f035d49c5db74a8feb6a3d797049f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor using Guid(ca9f035d49c5db74a8feb6a3d797049f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8af684567364c34df8e91b3efcc16c9') in 0.002993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers
+  artifactKey: Guid(cedcb6555bd89b940a6868c072ed473d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers using Guid(cedcb6555bd89b940a6868c072ed473d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da96c8532da5e068ac44628a251e0cb8') in 0.002491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props
+  artifactKey: Guid(4074df064ec1ac341a3d1ad54cefc56a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props using Guid(4074df064ec1ac341a3d1ad54cefc56a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22e8019c6e1265928740daa898050f90') in 0.002655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_ladder_01.prefab
+  artifactKey: Guid(7087784e228be8745af45599a5130532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Items/rpgpp_lt_ladder_01.prefab using Guid(7087784e228be8745af45599a5130532) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c049c7bb6642ba9804189324c86e4580') in 0.005294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_03.fbx
+  artifactKey: Guid(52eeab1f0ce4d934591972b6df5d179b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_03.fbx using Guid(52eeab1f0ce4d934591972b6df5d179b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c59d975b753a6f03656a4d530498d874') in 0.015637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPGPP_LT/Textures/rpgpp_lt_sky_a.tga
+  artifactKey: Guid(5c4fa0e44769f8f46a06d96031e56a4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Textures/rpgpp_lt_sky_a.tga using Guid(5c4fa0e44769f8f46a06d96031e56a4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5630b6d8f3fa533701ac921810d86c1a') in 0.040611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_sack_open_01.fbx
+  artifactKey: Guid(1716e599fb056014ca8f5786b3a82fcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_sack_open_01.fbx using Guid(1716e599fb056014ca8f5786b3a82fcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7f2bd548c905555b0da531925ef302a') in 0.014070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_02.fbx
+  artifactKey: Guid(3ad660daf3a1e02458b9f3eca418861a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Structures/rpgpp_lt_building_02.fbx using Guid(3ad660daf3a1e02458b9f3eca418861a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7539e50ff956cee2fae75bb4350dac62') in 0.014635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_02.fbx
+  artifactKey: Guid(7110966a22a1bd74c894def7bbb4b8cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_02.fbx using Guid(7110966a22a1bd74c894def7bbb4b8cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc5fc2db54220dc990046bc774c73150') in 0.010787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bowl_metal_01.fbx
+  artifactKey: Guid(09cc238bd856b5d468789a6d2d0f48ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bowl_metal_01.fbx using Guid(09cc238bd856b5d468789a6d2d0f48ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb57f123b5564be5bbbaba1ddedee9c6') in 0.011064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity
+  artifactKey: Guid(d2809ab9b90eea7419d8d90d4c505d35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0.unity using Guid(d2809ab9b90eea7419d8d90d4c505d35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ea0f571844ba7cff287f63e1f982482') in 0.003878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_02.prefab
+  artifactKey: Guid(491dc122236ad9749a046177ea69736d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_02.prefab using Guid(491dc122236ad9749a046177ea69736d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '328370dd17cd0322e47b56fdc6d51762') in 0.005998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_02.fbx
+  artifactKey: Guid(87dc0b67e5fe70f40a31e17b0c0058b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_02.fbx using Guid(87dc0b67e5fe70f40a31e17b0c0058b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e5a3300bd9d955a09b903f898f74c6d') in 0.016862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_02.prefab
+  artifactKey: Guid(2767c12992d890f44b14f433fe854668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_02.prefab using Guid(2767c12992d890f44b14f433fe854668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54c838bdc38427118a23210c5ff05ba0') in 0.006584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Terrain
+  artifactKey: Guid(35a14bf03a52c0542aac7ef0d955d918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Terrain using Guid(35a14bf03a52c0542aac7ef0d955d918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b43b7bca284846c6f16f7c3e1ff8763') in 0.003260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_wagon_01.prefab
+  artifactKey: Guid(87d1d734739f10440b2bdbb449c09a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_wagon_01.prefab using Guid(87d1d734739f10440b2bdbb449c09a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e8efa8a6d8754ee74fe33cb958e9eb1') in 0.007114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01a.fbx
+  artifactKey: Guid(c7acbad2649a15647a7a4dfd8cceb5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01a.fbx using Guid(c7acbad2649a15647a7a4dfd8cceb5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c61f0e0ff10296ef21c14d1a5ee028a6') in 0.013504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT
+  artifactKey: Guid(cda64bc1e20cc554d99c88a5202bc71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT using Guid(cda64bc1e20cc554d99c88a5202bc71a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9df84c8dcf784b3b79e54594d3cef39b') in 0.002665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_03.prefab
+  artifactKey: Guid(2b519101e10d4a74580d4c86ac9e03e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_03.prefab using Guid(2b519101e10d4a74580d4c86ac9e03e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a86946b01cf7038d816e606f20de7f66') in 0.005390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_box_wood_01.fbx
+  artifactKey: Guid(ab945ff7c1d59bb4a8b506cb8c7dafcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_box_wood_01.fbx using Guid(ab945ff7c1d59bb4a8b506cb8c7dafcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d1296a1c81bb14fdd2ae60bb2ff3978') in 0.013909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat
+  artifactKey: Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat using Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ec1567dbecafcaa5aa3b4103e8d40e2') in 0.017414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_tree_pine_01.fbx
+  artifactKey: Guid(58c79ebc04f48c74fa4869c3f7d941fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_tree_pine_01.fbx using Guid(58c79ebc04f48c74fa4869c3f7d941fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1006e57d5f4dea1fd0da51f5d594c029') in 0.013623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_hanger_clothes_01.fbx
+  artifactKey: Guid(30c389f0d35cc414d9e841ff82ce1424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_hanger_clothes_01.fbx using Guid(30c389f0d35cc414d9e841ff82ce1424) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d5b64351366631d8d0522705d192959') in 0.013838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01a.fbx
+  artifactKey: Guid(c191cc4231bc1a940986671275027664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01a.fbx using Guid(c191cc4231bc1a940986671275027664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fed4dff28486a5af65254d77f51444ea') in 0.016158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPGPP_LT/Models/Props
+  artifactKey: Guid(c4780675555bd284c889294acc0f87d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props using Guid(c4780675555bd284c889294acc0f87d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a19e2dc935ab68498d148bc9324f3e9') in 0.002850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed
+  artifactKey: Guid(361af5be93a94d047835c7a3fc2e0f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed using Guid(361af5be93a94d047835c7a3fc2e0f08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e131f9e4411cb30d0c76c1832bd656aa') in 0.003796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_hill_small_01.prefab
+  artifactKey: Guid(5c9211eb71cff4f4996a21d92317f601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_hill_small_01.prefab using Guid(5c9211eb71cff4f4996a21d92317f601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9302a6659c6ebe21794152dbe2dc1c91') in 0.005662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_banner_01a.fbx
+  artifactKey: Guid(d7113c6e2a0f65c4abdb33666078052f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_banner_01a.fbx using Guid(d7113c6e2a0f65c4abdb33666078052f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75bf15c107e38ea98606da795f6ec816') in 0.015707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks
+  artifactKey: Guid(bcdbaf7c59877724ea3cdf590b46ee87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks using Guid(bcdbaf7c59877724ea3cdf590b46ee87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3797239b777d47beb1b0001e190d79be') in 0.002805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables
+  artifactKey: Guid(a16cecc9521895f429fc776e5a00616a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Tables using Guid(a16cecc9521895f429fc776e5a00616a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adb1df5b0bc9bb5925aa91907f0c9edf') in 0.002694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_rake_01.fbx
+  artifactKey: Guid(7deee4ad3618a17429fa704cea48558c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_rake_01.fbx using Guid(7deee4ad3618a17429fa704cea48558c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb5b47e71c66028307f035adefdc9beb') in 0.013108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01a.prefab
+  artifactKey: Guid(c96016c34e7be62488e588470988ef5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01a.prefab using Guid(c96016c34e7be62488e588470988ef5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6abae15e90665ddcff028cf1b32f7443') in 0.008528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_sky_01.fbx
+  artifactKey: Guid(092e8eab260eaf84e890e2e5dbc513b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_sky_01.fbx using Guid(092e8eab260eaf84e890e2e5dbc513b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '881b214a8e462003358c8a9b7e39457b') in 0.012791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_path_01a.prefab
+  artifactKey: Guid(a25996a7d0674de40a8273b54b50aa7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_path_01a.prefab using Guid(a25996a7d0674de40a8273b54b50aa7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f2ad50736a1de3b811233fad66eec3e') in 0.010514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Items
+  artifactKey: Guid(c941b50b6f168394f97708742eb6805a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Items using Guid(c941b50b6f168394f97708742eb6805a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f22e6a39b3d648149cb95558c0d329fb') in 0.004191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01a.prefab
+  artifactKey: Guid(37435aefe5da6f74f8b28c81bb4ffad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields/rpgpp_lt_shield_wall_01a.prefab using Guid(37435aefe5da6f74f8b28c81bb4ffad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4c183ddf3783a808857f8f6a990a50e') in 0.008358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields
+  artifactKey: Guid(da9c312667c8c3e4b96d68633b05f959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Shields using Guid(da9c312667c8c3e4b96d68633b05f959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ce051a81ed1824301050dd2c2532237') in 0.004169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_01.prefab
+  artifactKey: Guid(ae9772ea62bbc724eb9b8ef81109f733) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees/rpgpp_lt_tree_01.prefab using Guid(ae9772ea62bbc724eb9b8ef81109f733) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '964e1ca3999ce490ef77a8ba60f4348a') in 0.007822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_01.prefab
+  artifactKey: Guid(cd87e5026d1695148aabe96121c526ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Buildings/Bld_closed/rpgpp_lt_building_01.prefab using Guid(cd87e5026d1695148aabe96121c526ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b290fd2706c86aa119143c82246024c0') in 0.008640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_cloud_01.prefab
+  artifactKey: Guid(6fdeb1faa1b42904e9210dd047b256ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Sky/rpgpp_lt_cloud_01.prefab using Guid(6fdeb1faa1b42904e9210dd047b256ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '028fd0431796276fa7bcac4c5d4ae42a') in 0.006908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab
+  artifactKey: Guid(00e2e59cbc04eab4a982218df54ce70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab using Guid(00e2e59cbc04eab4a982218df54ce70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b713172c186656ed7697349dd870b433') in 0.009379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_path_01b.prefab
+  artifactKey: Guid(63ce2b31e16acab4d8a41f884c36333c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_path_01b.prefab using Guid(63ce2b31e16acab4d8a41f884c36333c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df441ea67efa7b7abd1e50192338a91a') in 0.006848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass
+  artifactKey: Guid(8edd0bcc1fb2d1b4ebab6673d1d675c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Grass using Guid(8edd0bcc1fb2d1b4ebab6673d1d675c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73ca94fa944fa2a42aac02ffbdd29f8e') in 0.003343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_sand_01.prefab
+  artifactKey: Guid(e7489574cca6d4645a7019414b8288e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_sand_01.prefab using Guid(e7489574cca6d4645a7019414b8288e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd75557cc1502615c8a12916b9d2a6696') in 0.006980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_box_wood_01.prefab
+  artifactKey: Guid(144403e0e442d2a448335e0c845d665b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_box_wood_01.prefab using Guid(144403e0e442d2a448335e0c845d665b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1561ec654fb99a0589efa19bd4010e8') in 0.008235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01b.fbx
+  artifactKey: Guid(c23d7dd34e2d29a42bf0998f5f20de59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_chair_01b.fbx using Guid(c23d7dd34e2d29a42bf0998f5f20de59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33fbc5e9223fa741e8a98f9654fab09f') in 0.014188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01b.prefab
+  artifactKey: Guid(002f7a569314a244fb643e8ea8d00376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Wall_decor/Banners/rpgpp_lt_banner_01b.prefab using Guid(002f7a569314a244fb643e8ea8d00376) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9d7fe12b8784b1b55ad9ed8b71de04a') in 0.009677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rocks_tiny_01.prefab
+  artifactKey: Guid(e1154cf6ac27b2f45b4ae35582e7e363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rocks_tiny_01.prefab using Guid(e1154cf6ac27b2f45b4ae35582e7e363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '297f0d2dbe9408c850e31a5a68d60ed0') in 0.008439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_bush_01.fbx
+  artifactKey: Guid(d28a5d39d87b52c49824501fac8b689c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_bush_01.fbx using Guid(d28a5d39d87b52c49824501fac8b689c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8d1868a01003020d103f5aa00a079e2') in 0.014196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_bucket_01.prefab
+  artifactKey: Guid(05723fa5edef5fa4ab72eb90ae0bf7b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_bucket_01.prefab using Guid(05723fa5edef5fa4ab72eb90ae0bf7b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3ae8f4cf869f5f8e361f0a98a808276') in 0.014082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_vase_02.prefab
+  artifactKey: Guid(645e0ccb96eef934aa12bd4c02a4bd66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_vase_02.prefab using Guid(645e0ccb96eef934aa12bd4c02a4bd66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7aaa60301763e57d7f716269a890fbdf') in 0.007020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees
+  artifactKey: Guid(62a1a5e916405c74aa4d6d61e8457a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Trees using Guid(62a1a5e916405c74aa4d6d61e8457a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ff7c143e41fde274938399d6ddbc2fe') in 0.004296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_02.fbx
+  artifactKey: Guid(4432020e36e26f946a400515834f11b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_02.fbx using Guid(4432020e36e26f946a400515834f11b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd956e2fff549e63491fe3b7ba4546a4e') in 0.013506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_02.prefab
+  artifactKey: Guid(9f21020355643c74c88002634abcdabd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Rocks/rpgpp_lt_rock_small_02.prefab using Guid(9f21020355643c74c88002634abcdabd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d257a2d485ba9ef935677df50424a39') in 0.007153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01b.fbx
+  artifactKey: Guid(ea48d15a3d30c4943927bc8edcd3ff96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_shield_wall_01b.fbx using Guid(ea48d15a3d30c4943927bc8edcd3ff96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '587e3cc2a62d6cdc0114422d848bfe67') in 0.016257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path
+  artifactKey: Guid(922a8b08dfab11944b459f549979fcaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Structures/Parts/Wood_path using Guid(922a8b08dfab11944b459f549979fcaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b858ae8da6cbc45f583185b96f8f0b4') in 0.005860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_bird_house_01.fbx
+  artifactKey: Guid(8edf1a08abb5cb342a2a608b289c1f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_bird_house_01.fbx using Guid(8edf1a08abb5cb342a2a608b289c1f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24df207a76873c909aa26f123b7f6f33') in 0.016759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0Settings.lighting
+  artifactKey: Guid(083bb4fd3dd86634b82c8027eaeba92f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Scene/rpgpp_lt_scene_1.0Settings.lighting using Guid(083bb4fd3dd86634b82c8027eaeba92f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86b0a744726566f37c164dd9263e5d1a') in 0.016373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_table_01.fbx
+  artifactKey: Guid(16c4b1c9bf28bc44eab122106a0e4864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_table_01.fbx using Guid(16c4b1c9bf28bc44eab122106a0e4864) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f3c48abb9f9d58be9c9dbd5628caad0') in 0.017777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants
+  artifactKey: Guid(4f4c8460c21aa8b4f81f3b85a3ffa824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Plants using Guid(4f4c8460c21aa8b4f81f3b85a3ffa824) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56d006811bfa77b06751effa72539b61') in 0.003333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature
+  artifactKey: Guid(caa53d26110620c4796425b9e20eb673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature using Guid(caa53d26110620c4796425b9e20eb673) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7b66af8f4bbea289293b1e06eba4d85') in 0.003067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_02.prefab
+  artifactKey: Guid(186ecc7a1f977cc4fab5658c00fa3c4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Vegetation/Flowers/rpgpp_lt_flower_02.prefab using Guid(186ecc7a1f977cc4fab5658c00fa3c4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cef706b85fbc7b34c92eba064918e3a4') in 0.006944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Materials
+  artifactKey: Guid(4d3b63fcb0486f848b58d507c8d70b9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Materials using Guid(4d3b63fcb0486f848b58d507c8d70b9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6627631fc8c9ff49f415410dcdc87dd') in 0.004628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_plant_02.fbx
+  artifactKey: Guid(2ef20853860a4694c9c08c312d121b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_plant_02.fbx using Guid(2ef20853860a4694c9c08c312d121b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '220212c5689d1ff8d72e90a37c6a22af') in 0.012894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_02.prefab
+  artifactKey: Guid(68cbfa1438162b243ac02fb9e3e30581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_02.prefab using Guid(68cbfa1438162b243ac02fb9e3e30581) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9dc14ff453172d43a924114c65f93b3') in 0.006713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPGPP_LT/Models/Props/rpgpp_lt_barrel_01.fbx
+  artifactKey: Guid(caf770415cf8b3745b977df80c57628b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Models/Props/rpgpp_lt_barrel_01.fbx using Guid(caf770415cf8b3745b977df80c57628b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68f94f3e47b252329e5dcddce5c83ca9') in 0.018818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs
+  artifactKey: Guid(441e217b814e36b4d88b0d92b15c533d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/RPGPP_LT/Prefabs/Props/Furniture/Chairs using Guid(441e217b814e36b4d88b0d92b15c533d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59a30cf2f0ececf0ed813cca8a8d187a') in 0.003598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

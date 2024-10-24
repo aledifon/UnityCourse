@@ -10,12 +10,11 @@ public class Student : MonoBehaviour
                 studentNotePractices;
 
     // Student name
-    public string studentName;
+    public string studentName;   
 
-    // Start is called before the first frame update
     void Start()
     {
-        CheckGrades();
+        StudentGrades();
     }
 
     // Update is called once per frame
@@ -26,22 +25,30 @@ public class Student : MonoBehaviour
                 practices = 0.3f,
                 finalGrade;
         // Calculo
-        finalGrade = studentNoteTheory*theory + studentNotePractices*practices;
+        finalGrade = (studentNoteTheory*theory) + (studentNotePractices*practices);
 
         // Show the result
-        Debug.Log("The final mark of the student called " + studentName + " es " + finalGrade);
+        Debug.Log("The final mark of the student called " + studentName + " is " + finalGrade);
     }
 
-    private void CheckGrades()
-    {
-        if (studentNoteTheory<0 || studentNoteTheory>10 ||
-            studentNotePractices < 0 || studentNotePractices > 10)
-        {
-            Debug.Log("The inserted value should be between 0 and 10.");
-        }
-        else
-        {
-            StudentGrades();
-        }
-    }
+    //private void CheckGrades()
+    //{
+    //    if (studentNoteTheory<0 || studentNoteTheory>10 ||
+    //        studentNotePractices < 0 || studentNotePractices > 10)
+    //    {
+    //        Debug.Log("The inserted value should be between 0 and 10.");
+    //    }
+    //    else
+    //    {
+    //        StudentGrades();
+    //    }
+    //}
+
+
+    // Start is called before the first frame update
+    //void Start()
+    //{
+    //    CheckGrades();
+    //}
+
 }

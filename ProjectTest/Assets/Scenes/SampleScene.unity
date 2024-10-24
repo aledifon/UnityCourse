@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 427544251}
   - component: {fileID: 427544252}
   - component: {fileID: 427544253}
+  - component: {fileID: 427544254}
   m_Layer: 0
   m_Name: POO
   m_TagString: Untagged
@@ -182,13 +183,28 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427544249}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddc5ecb022b0c88468fef02bad917d9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   x: 5
   nums: 03000000fdfffffffcffffff0400000002000000
+--- !u!114 &427544254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427544249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0614fb856fe5ba84380f6bf26ba778e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  studentNoteTheory: 4
+  studentNotePractices: 7
+  studentName: pepe
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
