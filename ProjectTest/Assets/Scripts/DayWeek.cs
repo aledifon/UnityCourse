@@ -86,49 +86,78 @@ public class DayWeek : MonoBehaviour
         int middleNum = num1;
         int smallestNum = num1;
 
-        if (num2 > num1)                    // (2|3) 1    
+        if (num1 < num2)
         {
-            if (num3 > num2)
-            {
-                biggestNum = num3;          // 3 2 1
-                middleNum = num2;
-                smallestNum = num1;
-            }
-            else
-            {
-                biggestNum = num2;          // 2 (3|1)
-                if (num3 > num1)
-                {
-                    middleNum = num3;       // 2 3 1
-                    smallestNum = num1;
-                }
-                else
-                {
-                    middleNum = num1;       // 2 1 3
-                    smallestNum = num3;
-                }
-            }
+            smallestNum = num1;
+            biggestNum = num2;
         }
-        else if (num3 > num1)               // 3 1 2
+        else
         {
-            biggestNum = num3;
-            middleNum = num1;
             smallestNum = num2;
-        }
-        else                                // 1 (2|3)
-        {                                   
             biggestNum = num1;
-            if (num3 > num2)
+        }
+
+        if (num3 < smallestNum)
+        {
+            middleNum = smallestNum;
+            smallestNum = num3;
+        }
+        else
+        {
+            if (num3 > biggestNum)
             {
-                middleNum = num3;           // 1 3 3
-                smallestNum = num2;
+                middleNum = biggestNum;
+                biggestNum = num3;
             }
             else
-            {                
-                middleNum = num2;           // 1 2 3
-                smallestNum = num3;                
+            {
+                middleNum = num3;
             }
-        }                    
+        }
+
+        //if (num2 > num1)                    // (2|3) 1    
+        //{
+        //    if (num3 > num2)
+        //    {
+        //        biggestNum = num3;          // 3 2 1
+        //        middleNum = num2;
+        //        smallestNum = num1;
+        //    }
+        //    else
+        //    {
+        //        biggestNum = num2;          // 2 (3|1)
+        //        if (num3 > num1)
+        //        {
+        //            middleNum = num3;       // 2 3 1
+        //            smallestNum = num1;
+        //        }
+        //        else
+        //        {
+        //            middleNum = num1;       // 2 1 3
+        //            smallestNum = num3;
+        //        }
+        //    }
+        //}
+        //else if (num3 > num1)               // 3 1 2
+        //{
+        //    biggestNum = num3;
+        //    middleNum = num1;
+        //    smallestNum = num2;
+        //}
+        //else                                // 1 (2|3)
+        //{                                   
+        //    biggestNum = num1;
+        //    if (num3 > num2)
+        //    {
+        //        middleNum = num3;           // 1 3 3
+        //        smallestNum = num2;
+        //    }
+        //    else
+        //    {                
+        //        middleNum = num2;           // 1 2 3
+        //        smallestNum = num3;                
+        //    }
+        //}                    
 
         if (sortingType == SortingType.Ascending)
         {
