@@ -7,11 +7,15 @@ public class MyFirstScript : MonoBehaviour
     public Vector3 posObject;
     public Vector3 scaleObject;
     public float xPos;
+    //Class variable (or private field) called light
+    Light _light;
 
     // Awake is called before the Start method
     private void Awake()
     {
-        Debug.Log("Awake");
+        //Debug.Log("Awake");
+        //Initialize the Component to modify
+        _light = GetComponent<Light>();
     }
 
     // Start is called before the first frame update
@@ -19,6 +23,12 @@ public class MyFirstScript : MonoBehaviour
     {
         // GET -> Get the value of the x-position.
         xPos = transform.position.x;
+
+        //Here calls the _light var to use it
+        _light.color = Color.red;
+        _light.enabled = false;
+        _light.range = 50;
+
         Debug.Log("The position in x of the object on X is: " + xPos);        
         
         //SET -> Setting the value
@@ -32,7 +42,7 @@ public class MyFirstScript : MonoBehaviour
 
         //Debug.Log("Start");
 
-        
+        //gameObject.SetActive(false);
     }
 
     // Update is called once per frame (DeltaTime != Cte)

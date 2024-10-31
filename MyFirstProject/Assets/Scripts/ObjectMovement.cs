@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class ObjectMovement : MonoBehaviour
 {
-    public int speed;
-    public int turnspeed;
+    public int speed = 10;
+    public int turnspeed = 300;
+
+    float horizontal,
+          vertical,
+          horizTurn;   
 
     void Start()
     {
-        
+
     }
-    
+
     void Update()
     {
+        InputCube();
+
         // Movement = Direction * Speed
         /*
          * Vector3.forward = (0,0,1) -> Unitary vector (direction)
@@ -25,16 +31,22 @@ public class ObjectMovement : MonoBehaviour
          */
         //Time.deltaTime is the time lapsed between updates and by 
         //multiplying it, speed is converted to meters per second
-        if (Input.GetKey(KeyCode.M))
-        {
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        }
-        //transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        transform.Rotate(Vector3.up * turnspeed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            Debug.Log("Se ha pulsado la tecla P");
-        }
+        transform.Translate(Vector3.forward * vertical * speed * Time.deltaTime);
+        transform.Translate(Vector3.right * horizontal * speed * Time.deltaTime);
+
+        //transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Rotate(Vector3.up * horizTurn * turnspeed * Time.deltaTime);        
+    }
+
+    // Tell it which keys I'm going to use (keys mapping). 
+    void InputCube()
+    {
+        // A and D (< and >) keys of our keyboard
+        horizontal = Input.GetAxis("Horizontal");
+        // W and S (up and down) keys of our keyboard
+        vertical = Input.GetAxis("Vertical");
+        // Mouse X-Axis
+        horizTurn = Input.GetAxis("Mouse X");
     }
 }
