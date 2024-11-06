@@ -8,12 +8,15 @@ public class DogMovement : MonoBehaviour
                 turnSpeed;
 
     private float horizontal,
-                vertical;   
+                vertical;
+
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        // my anim var points to the Animator component whose GO has this script
     }
 
     // Update is called once per frame
@@ -22,6 +25,7 @@ public class DogMovement : MonoBehaviour
         InputPlayer();
         Move();    
         Turn();
+        Animating();
     }
 
     void InputPlayer()
@@ -37,5 +41,14 @@ public class DogMovement : MonoBehaviour
     void Turn()
     {
         transform.Rotate(Vector3.up * horizontal * turnSpeed * Time.deltaTime);
+    }
+    void Animating()
+    {
+        //if (vertical != 0) // The Character is moving       
+        //    anim.SetBool("IsMoving",true);
+        //else              // The Character is not moving       
+        //    anim.SetBool("IsMoving",false);
+
+        anim.SetBool("IsMoving", (vertical != 0));
     }
 }
