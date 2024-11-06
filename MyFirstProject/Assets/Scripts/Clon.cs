@@ -6,13 +6,18 @@ public class Clon : MonoBehaviour
 {
     public GameObject acorn;    
     public Transform posRotAcorn;
+
     public float thrustY,
                 thrustZ;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Calls the Method 'CreateObjectsWithForce' after 2s passed
+        //Invoke("CreateObjectsWithForce", 2);
+        // Calls the Method 'CreateObjectsWithForce' periodically
+        // (After 1s the 1st time, and after 2s from the 2nd time)
+        InvokeRepeating("CreateObjectsWithForce", 1, 2);
     }
 
     // Update is called once per frame
@@ -47,8 +52,11 @@ public class Clon : MonoBehaviour
         rbAcorn.AddForce(Vector3.up * thrustY);
         //transform.forward makes ref to the local z-axis, from posRot
         rbAcorn.AddForce(transform.forward * thrustZ);
-
-        
+        Invoke("Message", 1.5f);
     }
     
+    void Message()
+    {
+        Debug.Log("I'm going to became a Jedi with Unity");
+    }
 }
