@@ -1,20 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
 public class GuyAttack : MonoBehaviour
 {
-    public GameObject ballPrefab;   // Makes ref to a ball prefab, Never an GO of the Scene!
-    public Transform posBall;
-
-    public float thrustY,
-                thrustZ;
+    private Animator anim;
+    public Collider colliderAttack;
 
     // Start is called before the first frame update
     void Start()
     {
-        //InvokeRepeating("CreateBalls", 1, 2);
+        anim = GetComponent<Animator>();
+        // my anim var points to the Animator component whose GO has this script
+        //collider = GetComponent<Collider>();
     }
 
     // Update is called once per frame
@@ -22,27 +22,24 @@ public class GuyAttack : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            CreateBalls();
+            Attack();
         }
     }
-    private void CreateBalls()
+    void Attack()
     {
-        GameObject cloneBall = Instantiate(ballPrefab, posBall.position, posBall.rotation);
-        Rigidbody rbBall = cloneBall.GetComponent<Rigidbody>();
+        //Executes the animation
+        anim.SetTrigger("Attack");        
+    }
 
-        ////vector3.up makes ref. to the global y-axis, from the Scene
-        //rbBall.AddForce(Vector3.up * thrustY);
-        ////transform.forward makes ref to the local z-axis, from posRot
-        //rbBall.AddForce(transform.forward * thrustZ);
-
-        //Force calculation
-        Vector3 forceUpward = Vector3.up * thrustY;
-        Vector3 forceForward = transform.forward * thrustZ;
-        Vector3 forceRes = forceForward + forceUpward; 
-
-        //vector3.up makes ref. to the global y-axis, from the Scene
-        rbBall.AddForce(forceRes);        
-
-        Destroy(cloneBall, 2);
+    // Animation Events
+    void EnableCollider()
+    {
+        // Enabling the component
+        colliderAttack.enabled = true;
+    }
+    void DisableCollider()
+    {
+        // Disabling the component
+        colliderAttack.enabled = false;
     }
 }
