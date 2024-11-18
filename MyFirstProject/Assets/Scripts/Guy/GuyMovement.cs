@@ -201,7 +201,12 @@ public class GuyMovement : MonoBehaviour
     }
     void Move()
     {
-        transform.Translate(Vector3.forward * vertical * speed * Time.deltaTime);        
+        // If Animation == Attack --> rb.velocity = Vector3.zero;          // Resetea velocidad
+        if (IsPlayingAnimation("Attack02_SwordAndShiled"))        
+            rb.velocity = Vector3.zero;        
+        // Else --> Normal movement
+        else        
+            transform.Translate(Vector3.forward * vertical * speed * Time.deltaTime);        
     }
     void Turn()
     {
@@ -219,6 +224,18 @@ public class GuyMovement : MonoBehaviour
         //    anim.SetBool("IsMoving",false);
 
         anim.SetBool("IsMoving", (vertical != 0));
+
+        anim.SetBool("IsJumping", !isGrounded);
+        //anim.SetBool("IsJumping", (rb.velocity.y !=0));
+    }
+
+    bool IsPlayingAnimation(string name)
+    {
+        // Obtén información del estado actual en la capa 0 (por defecto)
+        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
+
+        // Compara el nombre del estado actual con el de la animación deseada
+        return stateInfo.IsName(name);
     }
     //////////////////////////////////////////////////
 }
