@@ -31,6 +31,8 @@ public class GuyMovement : MonoBehaviour
                 canPlayerJump;
     private Rigidbody rb;
 
+    private CapsuleCollider capsuleCollider;
+
     // Offset added to the raycast origint to assure the raycast will touch the floor 
     private Vector3 raycastOffset = new Vector3(0f, 0.1f, 0f);
 
@@ -51,14 +53,16 @@ public class GuyMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         // my anim var points to the Animator component whose GO has this script
         rb = GetComponent<Rigidbody>();
+
+        capsuleCollider = GetComponent<CapsuleCollider>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        InputPlayer();
-        Move();
-        Turn();
+        //InputPlayer();
+        //Move();
+        //Turn();
         Animating();
 
         canJump();      // Manages the player's jump
@@ -70,7 +74,9 @@ public class GuyMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        LaunchRayCast();            // Detect the ground and the Normal terrain vector
+        InputPlayer();
+
+        LaunchRayCast();            // Detect the ground and the Normal terrain vector                
 
         // Calculate the slope variation
         float angle = Vector3.Angle(previousNormal, normalVector);
@@ -80,12 +86,19 @@ public class GuyMovement : MonoBehaviour
             //AlignToGround();
         }
 
+        // We call the movement by RigidBody only once
         if (canPlayerJump)
         {
             canPlayerJump = false;
             // Jump
             Jump();
         }
+        //else 
+        //    Move();                     // Moves the character by using Forces
+
+        Debug.Log("RigiBody.Velocity AFTER JUMP = (" + rb.velocity.x + " ," +
+                                        rb.velocity.y + " ," +
+                                        rb.velocity.z + " )");
 
         // Update the previous normal Vector
         previousNormal = normalVector;
@@ -145,43 +158,57 @@ public class GuyMovement : MonoBehaviour
             //Debug.Log("Velocity: " + rb.velocity);
             //Debug.Log("Angular Velocity: " + rb.angularVelocity);
 
-            Vector3 forceApplied = jumpDirection + forwardImpulse;
+            //Vector3 forceApplied = jumpDirection + forwardImpulse;
+            //Vector3 forceApplied = jumpDirection;            
+            Vector3 forceApplied = new Vector3(jumpDirection.x, jumpDirection.y, jumpDirection.z*2);
 
-            //Debuggin forces
+            // Fix forceapplied vector
+
+
+            //Debugging forces
 
             Debug.Log("Normal vector = (" + normalVector.x +
                                         " ," + normalVector.y +
                                         " ," + normalVector.z + " )");
-            
-            Debug.Log("Jump force = (" + jumpDirection.x + 
-                                        " ," + jumpDirection.y + 
-                                        " ," + jumpDirection.z + " )");
-            
-            //Debug.Log("Forward impulse = (" + forwardImpulse.x + 
+
+            //Debug.Log("Jump force = (" + jumpDirection.x + 
+            //                            " ," + jumpDirection.y + 
+            //                            " ," + jumpDirection.z + " )");
+
+            //Debug.Log("Forward impulse = (" + forwardImpulse.x +
             //                            " ," + forwardImpulse.y +
             //                            " ," + forwardImpulse.z + " )");
-            
-            //Debug.Log("Force applied = (" + forceApplied.x + 
-            //                            " ," + forceApplied.y + 
-            //                            " ," + forceApplied.z + " )");
 
-            rb.AddForce(forceApplied);
+            Debug.Log("Force applied = (" + forceApplied.x +
+                                        " ," + forceApplied.y +
+                                        " ," + forceApplied.z + " )");
 
-            rb.useGravity = true; // Reactiva la gravedad después del impulso
+            Debug.Log("RigiBody.Velocity BEFORE JUMP = (" + rb.velocity.x + " ," +
+                                        rb.velocity.y + " ," +
+                                        rb.velocity.z + " )");
 
-            //StartCoroutine(EnableGravityAfterDelay());
+            //transform.Translate(forceApplied * Time.deltaTime);
+            rb.AddForce(forceApplied,ForceMode.VelocityChange);
+            //rb.useGravity = true; // Reactiva la gravedad después del impulso            
+
+            StartCoroutine(EnableGravityAfterDelay());
         }
     }
     void PrepareForJump()
     {
-        rb.velocity = Vector3.zero;          // Resetea velocidad
+        rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);          // Resetea velocidad
         rb.angularVelocity = Vector3.zero;  // Resetea rotación
         rb.useGravity = false;              // Opcional: Desactiva la gravedad momentáneamente
+
+        //Disable the Collider
+        capsuleCollider.enabled = false;
     }
     IEnumerator EnableGravityAfterDelay()
     {
         yield return new WaitForSeconds(0.2f); // Espera un pequeño intervalo
         rb.useGravity = true; // Reactiva la gravedad
+
+        capsuleCollider.enabled = true; // Reactiva el collider del personaje
     }
     //////////////////////////////////////////////////
 
@@ -226,11 +253,18 @@ public class GuyMovement : MonoBehaviour
     void Move()
     {
         // If Animation == Attack --> rb.velocity = Vector3.zero;          // Resetea velocidad
-        if (IsPlayingAnimation("Attack02_SwordAndShiled"))        
-            rb.velocity = Vector3.zero;        
-        // Else --> Normal movement
-        else        
-            transform.Translate(Vector3.forward * vertical * speed * Time.deltaTime);        
+        //if (IsPlayingAnimation("Attack02_SwordAndShiled"))
+        //    rb.velocity = Vector3.zero;
+        //// Else --> Normal movement
+        //else
+        //{
+            // Force-based Movement
+            Vector3 moveDirection = transform.forward * vertical * speed * Time.fixedDeltaTime;            
+            rb.MovePosition(rb.position + moveDirection);            
+
+            //transform.Translate(Vector3.forward * vertical * speed * Time.deltaTime);
+            //transform.Translate(transform.forward * vertical * speed * Time.deltaTime);
+        //}
     }
     void Turn()
     {

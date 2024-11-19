@@ -249,7 +249,7 @@ MonoBehaviour:
   rayLayer:
     serializedVersion: 2
     m_Bits: 128
-  jumpForce: 250
+  jumpForce: 5
   alignmentSpeed: 5
   slopeChangeThreshold: 15
 --- !u!4 &89065577 stripped
@@ -288,7 +288,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89065573}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 10
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -634,7 +634,7 @@ Transform:
   m_GameObject: {fileID: 659729033}
   serializedVersion: 2
   m_LocalRotation: {x: 0.06427743, y: -0.7041793, z: 0.064277455, w: 0.7041793}
-  m_LocalPosition: {x: 20.73, y: 4.81, z: 18.99}
+  m_LocalPosition: {x: 20.35, y: 6.88, z: 29.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1130,11 +1130,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8855052669661678444, guid: 2dfbb63c9cdf7504faf4ff26b0581598, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.14
+      value: 8.19
       objectReference: {fileID: 0}
     - target: {fileID: 8855052669661678444, guid: 2dfbb63c9cdf7504faf4ff26b0581598, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 17.88
+      value: 30.36
       objectReference: {fileID: 0}
     - target: {fileID: 8855052669661678444, guid: 2dfbb63c9cdf7504faf4ff26b0581598, type: 3}
       propertyPath: m_LocalRotation.w
