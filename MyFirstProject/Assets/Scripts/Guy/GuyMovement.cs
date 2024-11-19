@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using UnityEngine;
 
 public class GuyMovement : MonoBehaviour
@@ -37,6 +38,12 @@ public class GuyMovement : MonoBehaviour
     private Vector3 previousNormal = Vector3.up;    // Terrain normal vector in the previous frame
 
 
+    void Awake()
+    {
+        // Configure globally the invariant culture
+        System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+        System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.InvariantCulture;        
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -122,24 +129,41 @@ public class GuyMovement : MonoBehaviour
     void Jump()
     {
         //rb.AddForce(Vector3.up * jumpForce);
-        if ((normalVector != Vector3.zero) &&                // Be sure the normal is updated
-            Vector3.Dot(normalVector, Vector3.up) > 0.1f)   // and it has at least 10º of inclination
+        if ((normalVector != Vector3.zero))                 // Be sure the normal is updated
+            //&&  Vector3.Dot(normalVector, Vector3.up) > 0.1f)   // and it has at least 10º of inclination
         {
             // Reset the Rigidbody speeds before jumping
             PrepareForJump();
 
             // 1. Calculates the force in the normal terrain direction
-            Vector3 jumpDirection = normalVector.normalized * jumpForce; // Normalize the normal vector            
+            Vector3 jumpDirection = normalVector.normalized * jumpForce; // Normalize the normal vector                        
 
             // 2. Adds a little forward force component 
-            Vector3 forwardImpulse = transform.forward * (jumpForce / 2f); // Reduced in order to don't be dominant in the jumping
+            Vector3 forwardImpulse = transform.forward * vertical * (jumpForce / 2f); // Reduced in order to don't be dominant in the jumping                      
 
             //Debug.Log("IsGrounded = " + isGrounded);
             //Debug.Log("Velocity: " + rb.velocity);
             //Debug.Log("Angular Velocity: " + rb.angularVelocity);
 
             Vector3 forceApplied = jumpDirection + forwardImpulse;
-            Debug.Log("Force applied = (" + forceApplied.x + " ," + forceApplied.y + " ," + forceApplied.z + " )");
+
+            //Debuggin forces
+
+            Debug.Log("Normal vector = (" + normalVector.x +
+                                        " ," + normalVector.y +
+                                        " ," + normalVector.z + " )");
+            
+            Debug.Log("Jump force = (" + jumpDirection.x + 
+                                        " ," + jumpDirection.y + 
+                                        " ," + jumpDirection.z + " )");
+            
+            //Debug.Log("Forward impulse = (" + forwardImpulse.x + 
+            //                            " ," + forwardImpulse.y +
+            //                            " ," + forwardImpulse.z + " )");
+            
+            //Debug.Log("Force applied = (" + forceApplied.x + 
+            //                            " ," + forceApplied.y + 
+            //                            " ," + forceApplied.z + " )");
 
             rb.AddForce(forceApplied);
 
