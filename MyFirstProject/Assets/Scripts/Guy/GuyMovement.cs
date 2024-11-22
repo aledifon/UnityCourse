@@ -23,6 +23,7 @@ public class GuyMovement : MonoBehaviour
 
     private float horizontal,
                 vertical;
+    Vector3 moveDirection;
 
     private Animator anim;
     private Ray ray;
@@ -72,7 +73,7 @@ public class GuyMovement : MonoBehaviour
         //Debug.Log("Constraints: " + rb.constraints);
         // VERIF
     }
-    private void FixedUpdate()
+    private void LateUpdate()
     {
         InputPlayer();
 
@@ -93,8 +94,8 @@ public class GuyMovement : MonoBehaviour
             // Jump
             Jump();
         }
-        //else 
-        //    Move();                     // Moves the character by using Forces
+        else
+            Move();                     // Moves the character by using Forces
 
         Debug.Log("RigiBody.Velocity AFTER JUMP = (" + rb.velocity.x + " ," +
                                         rb.velocity.y + " ," +
@@ -188,7 +189,7 @@ public class GuyMovement : MonoBehaviour
                                         rb.velocity.z + " )");
 
             //transform.Translate(forceApplied * Time.deltaTime);
-            rb.AddForce(forceApplied,ForceMode.VelocityChange);
+            rb.AddForce(forceApplied,ForceMode.Impulse);
             //rb.useGravity = true; // Reactiva la gravedad después del impulso            
 
             StartCoroutine(EnableGravityAfterDelay());
@@ -249,6 +250,7 @@ public class GuyMovement : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
+        moveDirection = new Vector3(0,0,vertical).normalized;
     }
     void Move()
     {
@@ -258,9 +260,8 @@ public class GuyMovement : MonoBehaviour
         //// Else --> Normal movement
         //else
         //{
-            // Force-based Movement
-            Vector3 moveDirection = transform.forward * vertical * speed * Time.fixedDeltaTime;            
-            rb.MovePosition(rb.position + moveDirection);            
+            // RigidBody-based Movement            
+            rb.MovePosition(transform.position + (moveDirection * speed * Time.fixedDeltaTime));            
 
             //transform.Translate(Vector3.forward * vertical * speed * Time.deltaTime);
             //transform.Translate(transform.forward * vertical * speed * Time.deltaTime);
@@ -283,8 +284,7 @@ public class GuyMovement : MonoBehaviour
 
         anim.SetBool("IsMoving", (vertical != 0));
 
-        anim.SetBool("IsJumping", !isGrounded);
-        //anim.SetBool("IsJumping", (rb.velocity.y !=0));
+        anim.SetBool("IsJumping", !isGrounded);        
     }
 
     bool IsPlayingAnimation(string name)
